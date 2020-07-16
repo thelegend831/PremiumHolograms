@@ -1,0 +1,5 @@
+name: 'PremiumHolograms'
+main: 'net.yetrr.premiumholograms.HologramsPlugin'
+author: 'yetrr'
+version: '1.0-RELEASE'
+softdepend: ['PremiumGuilds', 'HolographicDisplays']

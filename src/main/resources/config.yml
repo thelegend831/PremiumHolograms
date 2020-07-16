@@ -1,0 +1,57 @@
+#Odstepy od jaja gildii domyslnego hologramu podczas tworzenia gildii
+#Ustaw, jezeli create-on-guild-create jest na true
+default-hologram-x-offset: 0
+default-hologram-y-offset: 3.5
+default-hologram-z-offset: 0
+
+#Czy po zalozeniu gildii ma tworzyc sie hologram
+create-on-guild-create: true
+
+#Nazwa komendy do zarzadzania hologramem
+#Przy zmianie trzeba miec na uwadze komendy z HDisplays
+hologram-command-name: "gholo"
+
+#Co ile sekund hologram ma zmieniac strone
+hologram-scroll-time: 3
+
+#Odstep czasowy w sekundach pomiedzy przenoszeniem hologramu
+hologram-relocate-cooldown: 120
+
+#Wiadomosc, gdy gracz sprobuje przeniesc hologram poza teren gildii
+hologram-only-at-region: "&4Blad: &cHologram mozesz ustawic tylko na terenie swojej gildii!"
+
+#Wiadomosc, gdy gracz sprobuje przeniesc hologram na cudzy cuboid
+hologram-only-at-own-region: "&4Blad: &cNie mozna ustawic hologramu na cudzym terenie!"
+
+#Wiadomosc, gdy gracz musi czekac przed nastepnym przeniesieniem hologramu
+hologram-cooldown-message: "&4Blad: &cNastepny raz mozesz przeniesc hologram za &6%time%s&c!"
+
+#Wiadomosc, gdy gracz bedzie probowal usunac hologram ktory nie zostal stworzony
+hologram-not-exists: "&4Blad: &cNie mozna usunac hologramu ktory nie istnieje!"
+
+#Wiadomosc, gdy gracz usunie hologram gildii
+hologram-remove-message: "&aPomyslnie usunieto hologram!"
+
+#Wiadomosc, gdy gracz przeniesie lub stworzy hologram
+hologram-relocate-message: "&aPomyslnie ustawiono hologram!"
+
+#Strony hologramu
+hologram-pages:
+  1:
+  - '&7» &m----------------------------------------&r&7 «'
+  - '&8» &7Gildia: &8[&e%tag%&8] &7- &6%name%'
+  - '&8» &7Punkty: &e%points%'
+  - '&8» &7Pozycja: &e%position%'
+  - '&8» &7Zabojstwa: &e%kills%'
+  - '&8» &7Smierci: &e%deaths%'
+  - '&8» &7Asysty: &e%assists%'
+  - '&7» &m----------------------------------------&r&7 «'
+  2:
+  - '&7» &m----------------------------------------&r&7 «'
+  - '&8» &7Top punktow: &e%top-points-player%'
+  - '&8» &7Top zabojstw: &e%top-kills-player%'
+  - '&8» &7Top smierci: &e%top-deaths-player%'
+  - '&8» &7Top asyst: &e%top-assists-player%'
+  - '&8» &7Top punktow: &e%top-points-player%'
+  - '&8» &7Top punktow: &e%top-points-player%'
+  - '&7» &m----------------------------------------&r&7 «'
