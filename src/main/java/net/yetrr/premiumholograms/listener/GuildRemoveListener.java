@@ -1,6 +1,6 @@
 package net.yetrr.premiumholograms.listener;
 
-import net.yetrr.premiumguilds.api.event.GuildRemoveEvent;
+import net.yetrr.premiumguilds.api.event.guild.GuildRemoveEvent;
 import net.yetrr.premiumguilds.api.structure.guild.Guild;
 import net.yetrr.premiumholograms.hologram.GuildHologram;
 import net.yetrr.premiumholograms.hologram.HologramManager;
